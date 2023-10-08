@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Rubik:wght@300&display=swap');
+
+/* estilização */
+
+*{
+    font-family: 'rubik', Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+
+    body{
+    background-color: antiquewhite;
+    }
+    </style>
+    
+body{
+    min-height: 100vh;
+    background-color: antiquewhite;
+    }
+    :root{
+        --background-clean: rgba(197, 172, 141, 0.733);
+        --cor-da-empresa: rgb(107, 84, 14);
+    }
+
+    .titulo-principal {
+        text-align: center;
+    }
+   .home_pedido{
+    font-size: 15px;
+
+   }
+
+/*estilização do header-Nav*/
+.cabecalho{
+    list-style: none;
+    width: 100%
+         rgba(150, 92, 5, 0.767);
+    }
+
+
+.rodape-prin
+{
+    background-color:  rgb(165, 87, 42);       
+    clear: both;
+    padding: 28px;         
+    color: black;
+    font-size: 15px;
+    font-family: "arial", sans-serif;
+}
+
+
+/*teste form*/
+form {
+    max-width: 35em;
+    min-width: 22.125em;
+    width: 90%;
+    padding: 1em;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+legend {
+    padding: .5em;
+    color: rgb(194, 75, 19);
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: center;
+}
+
+label, input, textarea {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input, textarea {
+    background-color: burlywood;
+    border: 2px solid transparent;
+    border-bottom-color: rgb(168, 71, 26);
+    padding: .75em;
+    margin: .5em 0 2.5em;
+    color: white;
+    font-size: 1em;
+    outline: 0;
+}
+
+input:focus, textarea:focus {
+    border-bottom: 2px solid #8e999a;
+    background-color: #2a2727;
+}
+
+label {
+    margin-bottom: .4em;
+}
+
+textarea {
+    resize: none;
+}
+
+.btn {
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    background-color: rgb(172, 67, 25);
+    cursor: pointer;
+    padding: .7em;
+    font-size: 1.2em;
+    border: none;
+}
+
+
+/* Estilização formulário Contato */
+
+.menu .ul-menu{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.ul-menu li{
+    list-style: none;
+    padding: 2rem;
+    color:rgba(150, 92, 5, 0.767);
+}
+/* estilização da mensagem */
+section#mensagem-inicial{
+    padding: 1rem;
+    background-color: var
+    (--background-clean);
+    
+}
+#nome-empresa{
+font-style: bold;
+font-size: 50px;
+margin-bottom: 5rem;
+color: var(--cor-da-empresa);
+}
+.mensagem{
+    color: rgba(177, 95, 18, 0.815);
+    font-size: 25px ;
+}
+
+/* estilização do footer */
+.footer{
+    
+    (--background-clean);
+    margin-top: 5rem;
+        }
+    
+    .footer{
+        border-top: 1px solid #a7450c;
+         bottom: 0;
+         text-align: center;
+  center: 0;
+  height: 20px;
+  position: fixed;
+  width: 100%;
+    }
+    .footer_2023{
+        color: rgba(177, 95, 18, 0.815);
+                
+    }
+
+       
+  /* seção produto */
+  .secao-produto {
+    text-align: center;
+  }
+  
+  #descricao-produto {
+    margin: 1.5rem;
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  #imagem-produto {
+    width: 25%;
+    justify-content: center;
+    border-radius: 2rem;
+  }
+  
+  #imagem-produto:hover {
+    border: 2px solid black;
+    transform: scale(.9);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+  }
+  
+  .quantidade-produto {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+  }
+  
+  i.bi-dash-square {
+    padding: 0.5rem;
+    font-size: 30px;
+  }
+  
+  .numero-produto {
+    padding: 0.5rem;
+    font-size: 30px;
+  }
+  
+  i.bi-plus-square {
+    padding: 0.5rem;
+    font-size: 30px;
+  }
+  
+  .precos-produto {
+    display: flex;
+    padding: 0.9rem;
+  }
+  
+  .precos {
+    font-size: 30px;
+    font-weight: 800;
+    padding: 0.4rem;
+    color: var(--cor-empresa);
+    text-shadow: 1px 1px black;
+  }
+  
+  .precos-valores {
+    font-size: 25px;
+  }
+  
+  /* Botão */
+  .botao-carrinho {
+    display: center;
+    margin: auto;
+    padding: 1.2rem;
+  }
+  
+  i.bi-cart-plus {
+    font-size: 50px;
+    color: black;
+    position: absolute;
+    padding: 0.9rem 0.3rem;
+    margin-left: 3rem;
+  }
+  
+  .botao-add-carrinho {
+    box-shadow: inset 0px 1px 0px 0px #fce2c1;
+    background: linear-gradient(to bottom, #bb7f31 5%, #bd710f 100%);
+    background-color: #ffc477;
+    border-radius: 6px;
+    border: 1px solid #eeb44f;
+    display: inline-block;
+    cursor: pointer;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 40px 60px 40px 60px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #cc9f52;
+    width: 20%;
+    
+  }
+  .botao-add-carrinho:hover {
+    background: linear-gradient(to bottom, #fb9e25 5%, #ffc477 100%);
+    background-color: #976017;
+    
+  }
+  .botao-add-carrinho:active {
+    position: relative;
+    top: 1px;
+    display: center;
+  }
+
+  /* usando media queries para transformar nossa page acessivel a tela menores */
+    
+  @media screen and (max-width: 480px){
+    body {
+        width: 100%;
+    }
+    header{
+        display: flex;
+    }
+}
